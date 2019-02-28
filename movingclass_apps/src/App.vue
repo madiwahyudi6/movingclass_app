@@ -19,13 +19,20 @@
         <div class="container">
               <router-view/>
         </div>
-        <p class="mx-auto badge badge-pill badge-secondary mt-3">Diwah with Love </p> 
+        <p class="mx-auto badge badge-pill badge-secondary mt-3">Diwah with Love </p>
       </div>
     </div>
   </div>
 </template>
 <script>
+
+import Vue from 'vue';
+import vueHeadful from 'vue-headful';
+
+Vue.component('vue-headful', vueHeadful);
+
 export default {
-  name: 'App'
+  title: 'Class Activity',
+  name: 'App',
 }
 </script>

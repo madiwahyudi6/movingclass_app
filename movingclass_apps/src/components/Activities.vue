@@ -1,6 +1,6 @@
 <template>
     <div class="row mt-5">
-
+    <vue-headful title="Class Activity - Activities"/>
       <b-modal id="detail_activity" ref="detail_activity" size="modalsm" title="Detail Activity">
         <div class="container">
           <ul class="list-group">

@@ -11,9 +11,13 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
+      path: '/',
+      component: Activities,
+    },
+    {
       path: '/activities',
       name: 'Activities',
-      component: Activities
+      component: Activities,
     },
     {
       path: '/studentclass',

@@ -1,6 +1,6 @@
 <template>
     <div class="row mt-5">
-
+    <vue-headful title="Class Activity - Subject"/>
       <b-modal id="form_subject" ref="form_subject" size="modalsm" title="Form subject">
          <form @submit.prevent="submit_form">
            <fieldset class="form-group">
